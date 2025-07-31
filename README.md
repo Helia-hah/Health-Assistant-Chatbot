@@ -37,7 +37,7 @@ Health-Assistant-Chatbot/
 ### 🛠️ Setup
 ---
 ```
-git clone https://github.com/yourusername/Health-Assistant-Chatbot.git
+git clone https://github.com/Helia-hah/Health-Assistant-Chatbot.git
 cd Health-Assistant-Chatbot
 pip install -r requirements.txt
 # Create a .env file with your OpenAI API key:
