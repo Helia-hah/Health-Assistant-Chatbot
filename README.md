@@ -1,17 +1,18 @@
-# Health Assistant Chatbot
+# 🩺 Health Assistant Chatbot
+**Health Assistant Chatbot** is a Gradio-based interactive application that leverages OpenAI's GPT (gpt-4o-mini) to assist health professionals in querying and visualizing patient data. It supports both text and voice input and provides text-to-speech responses for accessibility.
+
 ## 📁 Project Structure:
 The following is the structure of this project repository:
-
 ```
-your-project/
+Health-Assistant-Chatbot/
 │
 ├── app/
 │   ├── __init__.py
-│   ├── main.py               # Entry point to run the app
-│   ├── patient.py            # Patient data management
-│   ├── data_preprocessor.py  # Data loading and cleaning
-│   ├── chat_audio.py         # Chat logic, TTS, and ASR
-│   ├── tools.py              # Tool functions for the chatbot
+│   ├── main.py              
+│   ├── patient.py            
+│   ├── data_preprocessor.py  
+│   ├── chat_audio.py         
+│   ├── tools.py              
 │   ├── style.css             # 🎯 CSS for the Gradio UI
 │
 ├── dataset/
@@ -19,7 +20,6 @@ your-project/
 │   ├── medications.csv
 │   ├── observations.csv
 │   ├── immunizations.csv
-├── requirements.txt
 ├── .env                     # ⚠️ Not tracked in Git. Stores your OpenAI API key.
 ├── README.md
 ```
