@@ -30,8 +30,19 @@ Health-Assistant-Chatbot/
 │   ├── medications.csv
 │   ├── observations.csv
 │   ├── immunizations.csv
+├── requirements.txt
 ├── .env                     # ⚠️ Not tracked in Git. Stores your OpenAI API key.
 ├── README.md
+```
+### 🛠️ Setup
+---
+```
+git clone https://github.com/yourusername/Health-Assistant-Chatbot.git
+cd Health-Assistant-Chatbot
+pip install -r requirements.txt
+# Create a .env file with your OpenAI API key:
+echo "OPENAI_API_KEY=your_api_key_here" > .env
+python -m app.main
 ```
 
 ### 🗃️ Dataset
