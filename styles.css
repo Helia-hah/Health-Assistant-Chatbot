@@ -1,0 +1,105 @@
+css = """
+/* Set background for the entire Gradio app */
+body {
+    background-color: #84909c !important;
+    margin: 0;
+    padding: 0;
+}
+
+.gradio-container {
+    background-color: #84909c !important;
+    min-height: 100vh;
+}
+
+#root, .main {
+    background-color: #84909c !important;
+}
+/* Center and style the main title */
+h1 {
+    text-align: center;
+    color: #273991;  
+    font-weight: 900;
+}
+
+/* Style for Read Aloud button */
+#read-aloud-btn {
+    background-color: #9e2488;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#read-aloud-btn:hover {
+    background-color: #751764;
+}
+
+/* Style for Clear button */
+#clear-btn {
+    background-color: #1f6e1f;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#clear-btn:hover {
+    background-color: #114a11;
+}
+
+/* Style for Send button */
+#send-btn {
+    background-color: #260db8;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+#send-btn:hover {
+    background-color: #180a6e;
+}
+
+/* Style for mic button */
+#mic-btn {
+    background-color: #260db8;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+#mic-btn:hover {
+    background-color: #180a6e;
+}
+
+/* Style the text input area inside */
+#chat-entry textarea {
+    background-color: #a3cdf0;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Style the label text */
+#chat-entry label {
+    color: black;        
+    display: block;       
+}
+
+#mic-input {
+  max-height: 350px !important;
+  max-width: 600px !important;
+  overflow: hidden;
+
+}
+
+"""
