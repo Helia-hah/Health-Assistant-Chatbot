@@ -6,11 +6,9 @@ Health Assistant Chatbot is a Gradio-based interactive application powered by a 
 - 🎤⌨️ **Multi-modal input:** Supports both **text** and **audio** inputs for flexible interaction.
 - 🔊 **Multi-modal output:** Provides text responses with an option for text-to-speech playback.
 - 🩺 **Patient data tools:**
-  1. 📋 **Information retrieval:** Access detailed patient information including immunizations, medications, observations (vital signs, lab results, and more).
+  1. 📋 **Information retrieval:** Access detailed patient information, including immunizations, medications, observations (vital signs, lab results, and more).
   2. 📈 **Visualization:** Plot vital signs and physical characteristics such as height, weight, and BMI.
   3. 🔍 **Analysis:** Analyze vital signs to detect out-of-range values and identify abnormalities using statistical measures such as mean, standard deviation, coefficient of variation, sudden changes, and trends.
-
-
 
 ## 📁 Project Structure
 The following is the structure of this project repository:
@@ -35,7 +33,6 @@ Health-Assistant-Chatbot/
 ├── README.md
 ```
 
----
 ### 🗃️ Dataset
 This project uses synthetic patient data generated with **Synthea™**, a tool that creates realistic (but not real) health records in multiple formats. I generated a dataset of 110 patients in CSV format by running the command below. You can find more details about Synthea on their [GitHub repository](https://github.com/synthetichealth/synthea).
 <pre> run_synthea -p 110 </pre>
