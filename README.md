@@ -1,7 +1,7 @@
 # Health Assistant Chatbot
 Health Assistant Chatbot is a Gradio-based interactive application powered by a large language model (LLM) — OpenAI's GPT (gpt-4o-mini) — designed to assist health professionals in querying and visualizing patient data. It supports both text and voice input and provides text-to-speech responses for accessibility.
 
-## Features 🚀
+## 🚀 Features 
 
 - 🎤⌨️ **Multi-modal input:** Supports both **text** and **audio** inputs for flexible interaction.
 - 🔊 **Multi-modal output:** Provides text responses with an option for text-to-speech playback.
@@ -12,7 +12,7 @@ Health Assistant Chatbot is a Gradio-based interactive application powered by a 
 
 
 
-## 📁 Project Structure:
+## 📁 Project Structure
 The following is the structure of this project repository:
 ```
 Health-Assistant-Chatbot/
