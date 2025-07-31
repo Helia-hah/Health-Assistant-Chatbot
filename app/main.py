@@ -15,7 +15,7 @@ from chat_audio import (
 
 def run_chatbot():
 
-    BASE_DIR = os.path.dirname(__file__)
+    BASE_DIR = os.path.dirname(os.path.dirname(__file__))
     DATASET_DIR = os.path.join(BASE_DIR, "dataset")
 
     patients = pd.read_csv(os.path.join(DATASET_DIR, 'patients.csv'))
