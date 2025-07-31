@@ -1,7 +1,7 @@
 # Health Assistant Chatbot
-📁 Project Structure
+## 📁 Project Structure:
 The following is the structure of this project repository:
-
+'''
 your-project/
 │
 ├── app/
@@ -20,7 +20,7 @@ your-project/
 │   ├── immunizations.csv
 ├── .env                     # ⚠️ Not tracked in Git. Stores your OpenAI API key.
 ├── README.md
-
+'''
 ### 🗃️ Dataset
 This project uses synthetic patient data generated with **Synthea™**, a tool that creates realistic (but not real) health records in multiple formats. I generated a dataset of 110 patients in CSV format by running the command below. You can find more details about Synthea on their [GitHub repository](https://github.com/synthetichealth/synthea).
 <pre> run_synthea -p 110 </pre>
