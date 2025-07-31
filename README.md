@@ -30,9 +30,10 @@ Health-Assistant-Chatbot/
 │   ├── medications.csv
 │   ├── observations.csv
 │   ├── immunizations.csv
+├── .gitignore
+├── README.md
 ├── requirements.txt
 ├── .env                     # ⚠️ Not tracked in Git. Stores your OpenAI API key.
-├── README.md
 ```
 ### 🛠️ Setup
 ---
