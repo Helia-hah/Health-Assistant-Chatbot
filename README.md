@@ -3,7 +3,7 @@
 
 ## Features 🚀
 
-- **Multi-modal input 🎤⌨️:** Supports both text and audio inputs for flexible interaction.
+- **Multi-modal input 🎤⌨️:** Supports both **text** and **audio** inputs for flexible interaction.
 - **Multi-modal output 🔊:** Provides text responses with an option for text-to-speech playback.
 - **Patient data tools 🩺:**
   1. **Information retrieval 📋:** Access detailed patient information, including immunizations, medications, observations (vital signs, lab results, and more).
