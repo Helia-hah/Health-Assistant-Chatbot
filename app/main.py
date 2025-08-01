@@ -13,6 +13,9 @@ from .chat_audio import (
         get_last_bot_message
     )
 
+import warnings
+warnings.filterwarnings("ignore")
+
 def run_chatbot():
 
     BASE_DIR = os.path.dirname(os.path.dirname(__file__))
