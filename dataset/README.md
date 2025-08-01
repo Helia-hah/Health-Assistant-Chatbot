@@ -9,7 +9,7 @@ For building the chatbot, only selected tables and columns from the Synthea data
 
 - The **immunizations** table records administered vaccines, including `PATIENT` (reference to the individual), `DATE`, and vaccine `DESCRIPTION`.
 
-- The **medications** table contains prescription data: `START` and `STOP` dates, medication `DESCRIPTION`, and `REASONDESCRIPTION`. Each row is linked to a PATIENT.
+- The **medications** table contains prescription data: `START` and `STOP` dates, medication `DESCRIPTION`, and `REASONDESCRIPTION`. Each row is linked to a `PATIENT`.
 
 - The **observations** table includes clinical observations with `DATE`, `PATIENT`, `DESCRIPTION` (e.g., vital signs or lab tests), recorded `VALUE`, and `UNITS`.
 
