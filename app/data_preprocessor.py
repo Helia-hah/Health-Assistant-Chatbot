@@ -22,7 +22,7 @@ class DataPreprocessor:
         self.immunizations = self.immunizations[['PATIENT','DATE','DESCRIPTION']]
 
     def _clean_medications(self):
-        self.medications = self.medications[['PATIENT','START','STOP','DESCRIPTION','REASONDESCRIPTION', 'DISPENSES']]
+        self.medications = self.medications[['PATIENT','START','STOP','DESCRIPTION','REASONDESCRIPTION']]
 
     def _process_observations(self):
         obs = self.observations
