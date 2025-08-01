@@ -5,7 +5,7 @@ from openai import OpenAI
 import numpy as np
 from io import BytesIO
 from pydub import AudioSegment
-from tools import tools, handle_tool_call, get_vital_plots, get_plot_out_of_range
+from .tools import tools, handle_tool_call, get_vital_plots, get_plot_out_of_range
 
 load_dotenv(override=True)
 openai_api_key = os.getenv('OPENAI_API_KEY')
