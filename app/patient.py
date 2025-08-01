@@ -76,7 +76,9 @@ class Patient:
     def __init__(self, patient_id):
         self.patient_id = patient_id
         patient_rows = Patient.patients[Patient.patients["Id"] == self.patient_id].copy()
-        
+
+        if patient_rows.empty:
+            raise ValueError(f"No patient found with ID: {patient_id}")
         self.patient_row = patient_rows.iloc[0]
         self.first_name = ''.join(c for c in self.patient_row["FIRST"] if not c.isdigit())
         self.last_name = ''.join(c for c in self.patient_row["LAST"] if not c.isdigit())
