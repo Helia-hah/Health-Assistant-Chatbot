@@ -1,7 +1,6 @@
-from .patient import Patient
 from cachetools import TTLCache
 import json
-
+from .patient import Patient
 
 # --- Patient Cache and Tool Logic ---
 # Up to 150 patients in memory, each valid for 10 minutes
