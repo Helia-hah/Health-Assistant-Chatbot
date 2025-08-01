@@ -24,13 +24,14 @@ Health-Assistant-Chatbot/
 │   ├── chat_audio.py         
 │   ├── tools.py              
 │   ├── style.css             # 🎯 CSS for the Gradio UI
-│   ├── README.md
 │
 ├── dataset/
 │   ├── patients.csv
 │   ├── medications.csv
 │   ├── observations.csv
 │   ├── immunizations.csv
+│   ├── README.md
+│
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
