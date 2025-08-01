@@ -33,7 +33,7 @@ def run_chatbot():
     Patient.medications = medications
     Patient.observations = observations
 
-    css_path = os.path.join(BASE_DIR, "styles.css")
+    css_path = os.path.join(BASE_DIR, "app", "styles.css")
     with open(css_path, "r") as f:
         css = f.read()
 
