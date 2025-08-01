@@ -5,12 +5,12 @@ This project uses synthetic patient data generated with **Synthea™**, a tool t
 
 For building the chatbot, only selected tables and columns from the Synthea dataset are used:
 
-- The **patients** table provides demographic details such as `Id` (unique identifier), BIRTHDATE, optional DEATHDATE, FIRST and LAST names, and GENDER. This helps identify users and segment them by age or gender.
+- The **patients** table provides demographic details such as `Id` (unique identifier), `BIRTHDATE`, optional `DEATHDATE`, `FIRST` and `LAST` names, and `GENDER`. This helps identify users and segment them by age or gender.
 
-- The **immunizations** table records administered vaccines, including PATIENT (reference to the individual), DATE, and vaccine DESCRIPTION.
+- The **immunizations** table records administered vaccines, including `PATIENT` (reference to the individual), `DATE`, and vaccine `DESCRIPTION`.
 
-- The **medications** table contains prescription data: START and STOP dates, medication DESCRIPTION, REASONDESCRIPTION, and DISPENSES (number of refills). Each row is linked to a PATIENT.
+- The **medications** table contains prescription data: `START` and `STOP` dates, medication `DESCRIPTION`, and `REASONDESCRIPTION`. Each row is linked to a PATIENT.
 
-- The **observations** table includes clinical observations with DATE, PATIENT, DESCRIPTION (e.g., vital signs or lab tests), and recorded VALUE.
+- The **observations** table includes clinical observations with `DATE`, `PATIENT`, `DESCRIPTION` (e.g., vital signs or lab tests), recorded `VALUE`, and `UNITS`.
 
 Together, these tables form a simplified but comprehensive patient profile used by the chatbot to generate informed responses.
