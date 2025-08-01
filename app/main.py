@@ -2,9 +2,9 @@ import os
 import pandas as pd
 import gradio as gr
 
-from patient import Patient
-from data_preprocessor import DataPreprocessor
-from chat_audio import (
+from .patient import Patient
+from .data_preprocessor import DataPreprocessor
+from .chat_audio import (
         chat,
         talker,
         transcribe_audio,
