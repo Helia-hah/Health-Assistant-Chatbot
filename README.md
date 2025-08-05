@@ -4,7 +4,7 @@ Health Assistant Chatbot is a Gradio-based interactive application powered by a 
 ### 🚀 Features 
 ---
 - 🎤⌨️ **Multi-modal input:** Supports both **text** and **audio** inputs for flexible interaction.
-- 🔊 **Multi-modal output:** Provides text responses with an option for text-to-speech playback.
+- 🔊 **Multi-modal output:** Provides **text responses** with an option for **text-to-speech playback**.
 - 🩺 **Patient data tools:**
   1. 📋 **Information retrieval:** Access detailed patient information, including immunizations, medications, observations (vital signs, lab results, and more).
   2. 📈 **Visualization:** Plot vital signs and physical characteristics such as height, weight, and BMI.
