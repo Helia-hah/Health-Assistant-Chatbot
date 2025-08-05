@@ -23,7 +23,7 @@ Health-Assistant-Chatbot/
 │   ├── data_preprocessor.py  
 │   ├── chat_audio.py         
 │   ├── tools.py              
-│   ├── style.css             # 🎯 CSS for the Gradio UI
+│   ├── style.css             # CSS for the Gradio UI
 │
 ├── dataset/
 │   ├── patients.csv
@@ -35,7 +35,7 @@ Health-Assistant-Chatbot/
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-├── .env                     # ⚠️ Not tracked in Git. Stores your OpenAI API key.
+├── .env                     # Not tracked in Git. Stores your OpenAI API key.
 ```
 ### 🛠️ Setup
 ---
